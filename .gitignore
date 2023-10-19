@@ -1,0 +1,5 @@
+
+flask-app/env/*
+flask-app/.DS_Store
+
+.DS_Store
