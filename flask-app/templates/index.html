@@ -1,18 +1,13 @@
-<style>
-  .content {
-    max-width: 500px;
-    margin: auto;
-    max-height: 300px;
-  }
-</style>
 <html>
   <head>
     <title>Simple App</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
   </head>
   <body>
     <div class="content">
-      <h2>Hello from Pipeline!</h2>
-      <p>Version: <b>{{ app_version }}</b></p>
+      <img src="{{ url_for('static', filename='images/summit.png') }}" alt="Red Hat Summit" class="center" />
+      <img src="{{ url_for('static', filename='images/eskom.png')}}" alt="ESKOM" class="center" />
     </div>
   </body>
 </html>
